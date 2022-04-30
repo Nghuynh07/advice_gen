@@ -30,7 +30,7 @@ Users should be able to:
 
 I learned about clamp() in CSS. Its such a cool property. It basically set min/max of the font-size with just one line of CSS. According to MDN it takes in 3 parameters: min, preferred, and max value. This is great for responsive design because it'll up/down bas on the size of the viewport.
 
-I made an error while I was doing the HTML markup by putting the dice inside a form. By doing this, it actually prevented the dice from constantly generating the quote which is what I want. I wanted the quote to generate each time the button is clicked. When I realized what I did I took out the form and it works as I wanted.
+I made an error while I was doing the HTML markup by putting the dice inside a form. By doing this, it prevented the dice from generating the quote each with each click which is not what I want. I wanted the quote to generate each time the button is clicked. When I realized what I did I took out the form and it works as intended.
 
 ### What Can I do to improve this further?
 
