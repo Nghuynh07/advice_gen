@@ -44,8 +44,8 @@ I think I can push this little more. The quote itself will auto generate every f
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Nghuynh07/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://6268d9933f323459f88242f7--glowing-strudel-c28f1b.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/Nghuynh07/advice_gen)
+- Live Site URL: [Add live site URL here](https://polite-starburst-b6eccd.netlify.app/)
 
 ### Built with
 
