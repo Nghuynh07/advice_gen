@@ -1,0 +1,74 @@
+@use "base.scss" as *;
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: $color-dark-blue;
+  @include flexCenter;
+
+  .advice {
+    max-width: 60rem;
+    background-color: $color-dark-grayish-blue;
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    @include flexCenter(column);
+    & * {
+      margin: 1rem;
+    }
+
+    &-number {
+      font-size: 1.4rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      color: $color-neon-green;
+    }
+
+    &-quote {
+      letter-spacing: 0.1rem;
+      font-size: clamp(2.2rem, 4.5vw, 2.8rem);
+      color: $color-light-cyan;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &-divider {
+      margin-bottom: 4rem;
+      min-height: 0.2rem;
+      max-width: 80vw;
+    }
+
+    &-btn {
+      position: absolute;
+      bottom: -4rem;
+      padding: 1rem;
+      border-radius: 50%;
+      background-color: $color-neon-green;
+      box-shadow: 0 0 0 transparent;
+      transition: box-shadow 0.2s;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0 0 3rem $color-neon-green;
+      }
+
+      @include flexCenter;
+    }
+
+    &-dice {
+      pointer-events: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .advice {
+    min-width: 90vw;
+    margin: 1.5rem;
+    padding: 0rem;
+  }
+}
