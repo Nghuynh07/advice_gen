@@ -39,7 +39,7 @@ I think I can push this little more. The quote itself will auto generate every f
 ### Screenshot
 
 ![Desktop](solution_images/desktop.png)
-![Hover State](solution_images/hover-state.png)
+![Hover State](solution_images/active-state.png)
 ![Mobile](solution_images/mobile.png)
 
 ### Links
